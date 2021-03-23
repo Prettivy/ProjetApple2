@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 /* #endregion */
@@ -17,21 +18,26 @@ nav {
     margin: auto;
 }
 
-ul {
+nav ul {
+    width: 80%;
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin: auto;
+}
+
+nav ul li {
+    margin: auto;
+    padding: 10px;
 }
 
 li a{
-    margin-top: 5px;
     font-size: 14px;
-    font-weight: thin;
     color: white;
     opacity: .8;
     text-decoration: none;
-    margin: 0;
-    padding: 0 10px;
+    margin: auto;
+    
 }
 
 li a:hover {
