@@ -1,17 +1,10 @@
 /* #region Main HTML Page */
 
 * {
-<<<<<<< HEAD
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-=======
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
->>>>>>> af2139013a066aa46a2160166c0130cb5bc3cccb
 }
 /* #endregion */
 
@@ -22,7 +15,6 @@ nav {
   height: 44px;
 }
 
-<<<<<<< HEAD
 nav ul {
   width: 80%;
   display: flex;
@@ -33,40 +25,11 @@ nav ul {
 nav ul li {
   margin: auto;
   padding: 10px;
-=======
-nav {
-    height: 40px;
-    width: 100%;
-    background: rgba(0,0,0,.8);
-    margin: auto;
-}
-
-nav ul {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin: auto;
-}
-
-nav ul li {
-    margin: auto;
-    padding: 10px;
-}
-
-li a{
-    font-size: 14px;
-    color: white;
-    opacity: .8;
-    text-decoration: none;
-    margin: auto;
-    
 }
 
 li a:hover {
-    cursor: pointer;
-    opacity: 1;
->>>>>>> af2139013a066aa46a2160166c0130cb5bc3cccb
+  cursor: pointer;
+  opacity: 1;
 }
 
 li a {
